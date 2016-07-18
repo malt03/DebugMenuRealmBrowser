@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'DebugMenuRealmBrowser_Example' do
+  pod 'DebugMenuRealmBrowser', :path => '../'
+
+  target 'DebugMenuRealmBrowser_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
