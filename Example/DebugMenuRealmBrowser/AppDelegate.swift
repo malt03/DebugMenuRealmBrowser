@@ -17,7 +17,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
   
   
   func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
-    DebugMenuRealmBrowserViewController.prepare(moduleName: "DebugMeuRealmBrowser_Example")
+    DebugMenuRealmBrowserViewController.prepare(moduleName: "DebugMenuRealmBrowser_Example")
     DebugHead.sharedInstance.prepare(menuClasses: [DebugMenuRealmBrowserViewController.self])
     return true
   }
