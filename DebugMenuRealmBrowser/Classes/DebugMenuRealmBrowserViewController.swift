@@ -22,6 +22,7 @@ public class DebugMenuRealmBrowserViewController: DebugMenu {
   public static let debugMenuAccessoryType = UITableViewCellAccessoryType.DisclosureIndicator
   public static let debugMenuDangerLevel = DebugMenuDangerLevel.Low
   public static func debugMenuSelected(debugHead: UIView, debugMenuTableViewController: UITableViewController) -> UIViewController? {
+    RealmBrowser.incorrectModuleNameMessage = "Please call DebugMenuRealmBrowserViewController.prepare with correct module name."
     return RealmBrowser.instantiate(moduleName: moduleName, withNavigationController: false, objectSearchEnabled: objectSearchEnabled)
   }
 }
