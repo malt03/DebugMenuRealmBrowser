@@ -1,7 +1,7 @@
 # DebugMenuRealmBrowser
 
 [![Platform](https://img.shields.io/cocoapods/p/DebugMenuRealmBrowser.svg?style=flat)](http://cocoapods.org/pods/DebugMenuRealmBrowser)
-![Language](https://img.shields.io/badge/language-Swift%202.2-orange.svg)
+![Language](https://img.shields.io/badge/language-Swift%203.0-orange.svg)
 [![CocoaPods](https://img.shields.io/cocoapods/v/DebugMenuRealmBrowser.svg?style=flat)](http://cocoapods.org/pods/DebugMenuRealmBrowser)
 ![License](https://img.shields.io/github/license/malt03/DebugMenuRealmBrowser.svg?style=flat)
 
