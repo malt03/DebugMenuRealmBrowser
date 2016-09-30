@@ -18,15 +18,15 @@ class Example: Object {
   dynamic var doubleValue = Double(0)
   dynamic var floatValue = Float(0)
   dynamic var stringValue = ""
-  dynamic var dateValue = NSDate()
-  dynamic var dataValue = NSData()
+  dynamic var dateValue = Date()
+  dynamic var dataValue = Data()
   let optionalBoolValue = RealmOptional<Bool>(true)
   let optionalIntValue = RealmOptional<Int>(0)
   let optionalDoubleValue = RealmOptional<Double>(0)
   let optionalFloatValue = RealmOptional<Float>(0)
   dynamic var optionalStringValue: String? = ""
-  dynamic var optionalDateValue: NSDate? = NSDate()
-  dynamic var optionalDataValue: NSData? = NSData()
+  dynamic var optionalDateValue: Date? = Date()
+  dynamic var optionalDataValue: Data? = Data()
   
   var child: Child?
   let children = List<Child>()

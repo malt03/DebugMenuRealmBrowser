@@ -9,19 +9,19 @@
 import DebugHead
 import RealmBrowser
 
-public class DebugMenuRealmBrowserViewController: DebugMenu {
-  private static var moduleName = ""
-  private static var objectSearchEnabled = true
+open class DebugMenuRealmBrowserViewController: DebugMenu {
+  fileprivate static var moduleName = ""
+  fileprivate static var objectSearchEnabled = true
 
-  public static func prepare(moduleName moduleName: String, objectSearchEnabled: Bool = true) {
+  open static func prepare(moduleName: String, objectSearchEnabled: Bool = true) {
     self.moduleName = moduleName
     self.objectSearchEnabled = objectSearchEnabled
   }
 
-  public static let debugMenuTitle = "Realm Browser"
-  public static let debugMenuAccessoryType = UITableViewCellAccessoryType.DisclosureIndicator
-  public static let debugMenuDangerLevel = DebugMenuDangerLevel.Low
-  public static func debugMenuSelected(debugHead: UIView, debugMenuTableViewController: UITableViewController) -> UIViewController? {
+  open static let debugMenuTitle = "Realm Browser"
+  open static let debugMenuAccessoryType = UITableViewCellAccessoryType.disclosureIndicator
+  open static let debugMenuDangerLevel = DebugMenuDangerLevel.low
+  open static func debugMenuSelected(_ debugHead: UIView, debugMenuTableViewController: UITableViewController) -> UIViewController? {
     RealmBrowser.incorrectModuleNameMessage = "Please call DebugMenuRealmBrowserViewController.prepare with correct module name."
     return RealmBrowser.instantiate(moduleName: moduleName, withNavigationController: false, objectSearchEnabled: objectSearchEnabled)
   }
