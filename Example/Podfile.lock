@@ -2,14 +2,14 @@ PODS:
   - BugImageCreator (0.4.0)
   - DebugHead (0.2.0):
     - BugImageCreator (~> 0.4.0)
-  - DebugMenuRealmBrowser (0.2.0):
+  - DebugMenuRealmBrowser (0.3.0):
     - DebugHead (>= 0.2)
     - RealmBrowser (>= 0.2)
     - RealmSwift (>= 2.0)
   - Realm (2.0.1):
     - Realm/Headers (= 2.0.1)
   - Realm/Headers (2.0.1)
-  - RealmBrowser (0.2.0):
+  - RealmBrowser (0.2.1):
     - RealmSwift
   - RealmSwift (2.0.1):
     - Realm (= 2.0.1)
@@ -24,11 +24,11 @@ EXTERNAL SOURCES:
 SPEC CHECKSUMS:
   BugImageCreator: 6d20d5c1989de88cd43367e0caa5f1f965acd6a5
   DebugHead: 40b08471e6788ec9201531608ee3665971b7e2f9
-  DebugMenuRealmBrowser: 0b6e5584b5dcbc6f4f3780082e3038678e6ffa03
+  DebugMenuRealmBrowser: eedfaf964a1b944015628c4b29e2ba1d606afa6b
   Realm: 0557ee0e4ab4f0936c90e370056d1ed6265f93d6
-  RealmBrowser: c4bf5e247793c3ac92c62ce33a28bbe46c9fa5af
+  RealmBrowser: 747bebe75b3609a8923b49b52a013d269f06c972
   RealmSwift: 64e00af79bdcd7d2a7a23fdc1cb3faf22b80ae4c
 
 PODFILE CHECKSUM: 4b034790cae8fec177362178df3b7ddecc20a97a
 
-COCOAPODS: 1.1.0.rc.2
+COCOAPODS: 1.1.1
