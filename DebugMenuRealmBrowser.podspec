@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'DebugMenuRealmBrowser'
-  s.version          = '0.3.0'
+  s.version          = '0.3.1'
   s.summary          = 'RealmBrowser is a Realm browser and editor on ios applications.'
 
   s.description      = <<-DESC
