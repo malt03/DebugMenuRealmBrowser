@@ -1,0 +1,6 @@
+framework module DebugMenuRealmBrowser {
+  umbrella header "DebugMenuRealmBrowser-umbrella.h"
+
+  export *
+  module * { export * }
+}
