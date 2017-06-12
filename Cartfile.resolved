@@ -1,0 +1,4 @@
+github "malt03/BugImageCreator" "1.0.1"
+github "realm/realm-cocoa" "v2.8.0"
+github "malt03/DebugHead" "1.1.4"
+github "malt03/RealmBrowser" "0.2.2"
