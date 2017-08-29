@@ -25,7 +25,7 @@ If you are using RealmSwift, you can browse and edit Realm database on this pod.
 
   s.source_files = 'DebugMenuRealmBrowser/Classes/**/*'
   
-  s.dependency 'DebugHead', '>= 1.0.0'
-  s.dependency 'RealmBrowser', '>= 0.2'
+  s.dependency 'DebugHead', '>= 2.1.0'
+  s.dependency 'RealmBrowser', '>= 1.0.0'
   s.dependency 'RealmSwift', '>= 2.0'
 end
