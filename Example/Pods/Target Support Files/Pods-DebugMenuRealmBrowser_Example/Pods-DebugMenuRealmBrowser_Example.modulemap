@@ -1,6 +1,0 @@
-framework module Pods_DebugMenuRealmBrowser_Example {
-  umbrella header "Pods-DebugMenuRealmBrowser_Example-umbrella.h"
-
-  export *
-  module * { export * }
-}
